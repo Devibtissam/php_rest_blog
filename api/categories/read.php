@@ -23,9 +23,9 @@ if($num > 0){
     $data = $data->fetchAll(PDO::FETCH_ASSOC);
 $categories_arr = array();
 foreach($data as $d ) {
-    extract($d);
+    // extract($d);
     // echo $name;
-    array_push($categories_arr, array("name" => $name));
+    array_push($categories_arr, $d);
 }
 
 // echo '<pre>';

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +13,7 @@
 <body>
 
 <div class="container">
-
-    <input type="button" value="Add a Post" id="add-post" class="btn btn-primary mt-5">
+    <a href="./add-post.php" id="add-post" class="btn btn-primary mt-5">Add a Post</a>
     <form action="" method="POST">
     <label for="category">Select by Category: </label>
     <select name="category" id="category" class="mt-5">

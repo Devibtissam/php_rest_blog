@@ -19,7 +19,7 @@ class Category{
       // get Category name
     public function read(){
         // create our query 
-        $query = 'SELECT c.name FROM '. $this->table .' as c ';
+        $query = 'SELECT * FROM '. $this->table .' as c ';
         
         //    prepare statement
         $stmt = $this->conn->prepare($query);
